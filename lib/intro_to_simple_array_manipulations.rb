@@ -9,8 +9,7 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
-  great_hits_of_the_nineties.pop
+  array.pop
 end
 
 def pop_with_args(array)
@@ -18,10 +17,9 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  my_favorite_cities.shift
+  array.shift
 end
 
 def shift_with_args(array)
-  
+  array.shift(2)
 end
